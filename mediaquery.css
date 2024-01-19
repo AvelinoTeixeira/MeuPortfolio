@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .number{
+    text-align: center;
+  }
+  .contact {
+    
+    justify-content: center;
+  }
+
+  .perfil {
+    padding-bottom: 30px;
+  }
+  .perfil h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+  .perfil h3 {
+    text-align: center;
+  }
+
+  .image {
+    margin: auto;
+  }
+
+  .image img{
+    margin: auto;
+    margin-bottom: 100px;
+     width: 100%;
+  }
+  #menu-icon{
+    margin-top: 20px;
+    margin-left: 90%;
+      display: initial;
+      z-index: 150;
+  }
+  .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      box-shadow: 0 5px 8px rgb(15 54 55 / 10%);
+      clip-path: circle(0% at 50% 0);
+      transition: 0.5s;
+  }
+  .navbar a {
+      display: block;
+      padding: 12px;
+  }
+
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  
+
+  .sobre-mim .sobre{
+    align-items: center;
+    display: flex;
+  }
+  .nome h5{
+    font-size: 30px;
+  }
+  .nome p{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .nome{
+    margin-left: 60px;
+  }
+  .number{
+    text-align: center;
+  }
+  .contact {
+    
+    justify-content: center;
+  }
+  .perfil{
+    padding-bottom: 70px;
+  }
+  .perfil h1{
+    
+    text-align: center;
+    font-size: 60px;
+  }
+  .navbar{
+    justify-content: flex-end;
+    display: flex;
+  }
+  .perfil h3{
+    text-align: center;
+  }
+  
+  .image img{
+    display: flex;
+    width: 100%;
+  }
+  .items h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px){
+  
+  .sobre-mim .sobre{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .nome h5{
+    font-size: 30px;
+  }
+  .nome p{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .nome{
+    margin-left: 60px;
+  }
+  .number{
+    text-align: center;
+  }
+  .contact {
+    
+    justify-content: center;
+  }
+  
+  
+  .nome{
+   text-align: justify;
+    margin: auto;
+    margin-left: 60px;
+  }
+
+  .nome h5{
+    font-size: 70px;
+  }
+  .nome p{
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+
+  .number h2{
+    margin-left: 30px;
+  }
+  .Dev{
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+  }
+
+  .navbar{
+    justify-content: center;
+    display: flex;
+  }
+
+  .perfil h1{
+    
+    margin-top: -30px;
+    display: flex;
+    justify-content: start;
+  
+    
+    font-size: 60px;
+  }
+  .perfil h3{
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-start;
+  }
+  .image img {
+    display: flex;
+  
+  }
+}
+@media screen and (min-width: 768px) {
+  #burguer {
+   
+      display: none;
+  }
+
+  menu {
+    text-align: end;
+      display: block;
+  }
+
+  menu > ul > li {
+    align-items: center;
+   
+    border-radius: 50px;
+    display: inline-block;
+  }
+
+  main {
+      width: 768px;
+  }
+}
