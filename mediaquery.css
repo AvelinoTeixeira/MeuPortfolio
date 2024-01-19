@@ -2,6 +2,31 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
+  .projeto1{
+    width: 55%;
+  }
+  
+
+  .projeto2{
+    width: 55%;
+  }
+
+  .projeto3{
+    width: 55%;
+  }
+
+  .projeto4{
+    width: 55%;
+  }
+
+  .projeto5{
+    width: 55%;
+  }
+  
+  .projeto6{
+    width: 55%;
+  }
+
   .number{
     text-align: center;
   }
@@ -57,10 +82,9 @@
   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1200px) {
 
   
-
   .sobre-mim .sobre{
     align-items: center;
     display: flex;
